@@ -1,0 +1,22 @@
+{
+  "name": "prediction-app",
+  "version": "1.0.0",
+  "description": "predicts stuff",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Tomer & Roi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "data-uri-to-file": "^0.1.8",
+    "electron": "^17.0.0",
+    "form-data": "^4.0.0",
+    "remote": "^0.2.6",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "webcamjs": "^1.0.26"
+  }
+}
